@@ -119,9 +119,4 @@ class PinjamController extends Controller
         Paginator::useBootstrap();
     }
 
-    public function getCoverUrlAttribute()
-    {
-        return asset('storage/cover_buku/' . $this->cover);
-
-    }
 }
